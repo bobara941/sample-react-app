@@ -1,0 +1,161 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: #D2E1FF;
+    color: white;
+    
+    & > div{
+        display: block;
+        max-width: 695px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 5px solid white;
+        box-shadow: 2px 4px 4px #ccc;
+        background-color: #DEDEDE;
+    }
+}
+
+div.firstPart, .secondPart, .thirdPart {
+    display: block;
+    max-width: 695px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 2px 4px 4px #ccc;
+    background-color: #DEDEDE;
+}
+
+.btn {
+    background-color: #5248A6;
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 850px;
+    top: 300px;
+    font-size: 20px;
+    width: 130px;
+    float: right;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+}
+
+section h1 {
+    background-color: #ECB209;
+    border: none;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.firstName {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    clear: both;
+    float: left;
+    height: 30px;
+    width: 200px;
+}
+
+.lastName {
+    position: absolute;
+    z-index: 0;
+    top: 229px;
+    left: 550px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    clear: both;
+    float: right;
+    height: 30px;
+    width: 200px;
+}
+
+.sur {
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    top: 203px;
+    left: 550px;
+    text-decoration: none;
+    clear: both;
+    color: black;
+}
+
+.emi {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 30px;
+    border: none;
+    clear: both;
+    float: left;
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    top: 290px;
+}
+
+.fir {
+    display: inline-block;
+    position: absolute;
+    top: 205px;
+    z-index: 0;
+    text-decoration: none;
+    clear: both;
+    color: black;
+}
+
+.email {
+    display: inline-block;
+    position: absolute;
+    top: 265px;
+    z-index: 0;
+    text-decoration: none;
+    clear: both;
+    float: left;
+    color: black;
+}
+
+.secondPart {
+    clear: both;
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 650px;
+}
+
+.thirdPart {
+    clear: both;
+    overflow: hidden;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 1300px;
+}
+
+.phoneNumber {
+    clear: both;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    top: 203px;
+    left: 400px;
+    text-decoration: none;
+    color: black;
+}
